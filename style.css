@@ -1,7 +1,10 @@
-*{
+*,
+*::after,
+*::before {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-
 body {
 	margin: 0;
 	padding: 0;
@@ -10,7 +13,7 @@ body {
 
 .headnav {
 	margin-right: 40px;
-	padding-top: 10px;
+	padding: 10px 0 40px 0;
 	display: flex;
 	justify-content: flex-end; 
 }
@@ -56,3 +59,40 @@ body {
 #nav-link:hover {
   text-decoration: underline;	
 }
+
+.intuit {
+	margin: auto;
+	width: 120px;
+}
+
+.intuit > img {
+	width: 100%;  
+	opacity: 0.4;
+}
+
+.threelogos {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 0 20px 0 ;
+}
+
+.threelogos > span {
+	width: 25px;
+	height: 25px;
+	margin-right: 3px;
+}
+
+.threelogos > span > img {
+	width: 100%;
+	height: inherit;
+	object-fit: contain;
+	
+}
+
+.imgtag {
+	color: #6B6C72;
+	font-size: 18px;
+	margin-right: 7px;
+} 

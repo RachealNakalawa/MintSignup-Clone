@@ -200,3 +200,19 @@ input.telinput  {
   margin-top: 30px;
   font-style: normal;
 }
+
+.be4futa {
+  padding: 20px 0 60px 0;
+  color: #656665;
+  
+}
+
+.be4futa > p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 2;
+}
+.be4futa > p >a {
+  margin-right: 10px;
+  color: #656665;
+}

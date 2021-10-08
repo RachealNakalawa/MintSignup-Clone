@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #ECEEF1;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -103,22 +103,31 @@ form {
   background-color: #FFFFFF; 
   width: 400px;
   margin: auto;
-  height: auto;
+  /* height: auto; */
 }
 
 .beginformdiv {
   text-align: center;
-  padding: 30px 0;
+  padding: 30px 40px;
 }
 
 .beginformp {
-  font-size: 25px;
+  font-size: 21px;
+	font-weight: 400;
+	color: #333;
+	letter-spacing: 0.1px;
 }
 
+.roboto {
+	font-family: 'Roboto', sans-serif;
+  color: #444;
+  font-weight: 300;
+ }
+
 .formph5 {
-  color: #727275;
-  font-weight: 200;
   line-height: 1.2;
+	font-size: 0.9em;
+	letter-spacing: 0.1px;
   padding-top: 30px;
 }
 
@@ -148,11 +157,6 @@ input {
   margin-bottom: 30px;
   width: 100%; 
 }
-
-.spanrec {
-  color: #727275;
-  font-weight: 200;
- }
 
 input.telinput  {
   margin-bottom: 5px;

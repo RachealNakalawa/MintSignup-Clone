@@ -216,3 +216,9 @@ input.telinput  {
   margin-right: 10px;
   color: #656665;
 }
+
+footer {
+  background-color: #FFFFFF;
+  padding: 25px 0 25px 20px;
+  font-size: 14px;
+}

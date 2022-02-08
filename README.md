@@ -13,7 +13,7 @@ The ability to design Forms and its accompaning elements for inputting data
 - CSS
 
 ## Live Demo 
-[Live Link](https://raw.githack.com/RachealNakalawa/MintSignup-Clone/feature-mintsignup/index.html)
+[Live Link](https://rawcdn.githack.com/RachealNakalawa/MintSignup-Clone/b88832f23e1bd1afb7b497e52952a3276328fa4b/index.html)
 
 ## Getting Started
 To get a local copy of this repository, please run the following commands on your terminal
